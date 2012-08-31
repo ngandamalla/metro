@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contents>
+  <count>15</count>
+  <content id="1">
+    <text>1</text>
+    <type>admin</type>
+    <class>generic</class>
+    <background>#00a7bc</background>
+    <color>#FFFFFF</color>
+    <width>200px</width>
+    <height>300px</height>
+  </content>
+  <content id="2" >
+    <text>2</text>
+    <type>admin</type>
+    <class>generic</class>
+    <background>#2d94ff</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="3">
+    <text>3</text>
+    <type>superuser</type>
+    <class>generic</class>
+    <background>#0062c8</background>
+    <color>#FFFFFF</color>
+    <width></width>
+    <height>150px</height>
+  </content>
+  <content id="4" >
+    <text>4</text>
+    <type>superuser</type>
+    <class>generic</class>
+    <background>#3366ff</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="5" >
+    <text>5</text>
+    <type>admin</type>
+    <class>generic</class>
+    <background>#ac0098</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="6" >
+    <text>6</text>
+    <type>superuser</type>
+    <class>generic</class>
+    <background>#008000</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="7" >
+    <text>7</text>
+    <type>user</type>
+    <class>generic</class>
+    <background>#ff0000</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="8" >
+    <text>8</text>
+    <type>user</type>
+    <class>generic</class>
+    <background>#7cbd2a</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="9" >
+    <text>9</text>
+    <type>user</type>
+    <class>generic</class>
+    <background>#7cbd2a</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="10">
+    <text>10</text>
+    <type>admin</type>
+    <class>generic</class>
+    <background>#ff0000</background>
+    <color>#FFFFFF</color>
+    <width>150px</width>
+    <height>150px</height>
+  </content>
+  <content id="11" >
+    <text>11</text>
+    <type>superuser</type>
+    <class>generic</class>
+    <background>#b71612</background>
+    <color>#FFFFFF</color>
+    <width>300px</width>
+    <height>150px</height>
+  </content>
+  <content id="12">
+    <text>12</text>
+    <type>admin</type>
+    <class>generic</class>
+    <background>#732171</background>
+    <color>#FFFFFF</color>
+    <width>250px</width>
+    <height>150px</height>
+  </content>
+  <content id="13">
+    <text>13</text>
+    <type>user</type>
+    <class>generic</class>
+    <background>#2d94ff</background>
+    <color>#FFFFFF</color>
+    <width>230px</width>
+    <height>150px</height>
+  </content>
+</contents>

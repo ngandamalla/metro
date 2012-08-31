@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Metro UI</title>
+<style type="text/css">
+body {
+	margin:0px;
+	padding:0px;
+	background:#F8F8F8;
+}
+#selectType, #mainContent {
+	float:left;
+	width:100%;
+	border:1px solid #ccc;
+	background:#FFF;
+	border-radius:8px;
+	margin:10px 0px 20px 0px;
+	box-shadow:0px 3px 8px #666;
+	-moz-box-shadow:0px 3px 8px #666;
+	-weight-box-shadow:0px 3px 8px #666;
+}
+#selectType {
+	color:#004000;
+	padding:10px 0px 10px 0px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+.generic {
+	float:left;
+	margin:10px;
+	min-width:180px;
+	min-height:150px;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	padding:10px;
+}
+#wrapper {
+	margin:10px auto;
+}
+.devicetype {
+	float:left;
+	width:300px;
+	text-align:center;
+	padding:8px 12px 8px 12px;
+	margin:20px;
+	background:#fff;
+	color:#666;
+	box-shadow:0px 3px 12px #333;
+	-moz-box-shadow:0px 3px 12px #333;
+	-webkit-box-shadow:0px 3px 12px #333;
+	display:none;
+}
+@media screen and (max-width: 480px) {
+ #wrapper {
+ width:400px;
+}
+ #iphoneView{
+	display:block; 
+ }
+}
+ @media screen and (min-width: 480px ) and (max-width: 768px) {
+ #wrapper {
+ 	width:600px;
+ }
+ #noteView{
+	display:block; 
+ }
+}
+ @media screen and (min-width: 767px) and (max-width: 979px) {
+ #wrapper {
+ width:900px;
+}
+ #tabletView{
+	display:block; 
+ }
+}
+@media screen and (min-width: 980px) and (max-width: 1200px) {
+ #wrapper {
+ width:1024px;
+ 
+}
+#ipadView{
+	display:block; 
+ }
+}
+@media screen and (min-width: 1200px) {
+ #wrapper {
+ width:1124px;
+}
+}
+</style>
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+<script type="text/javascript" src="metro.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="iphoneView" class="devicetype" >Viewing as in IPhone</div>
+  <div id="noteView" class="devicetype" >Viewing as in Note</div>
+  <div id="tabletView" class="devicetype" >Viewing as in Tablet</div>
+  <div id="ipadView" class="devicetype" >Viewing as in IPad</div>
+  <div id="selectType" > <span>Select Type</span> <span>
+    <input type="checkbox" id="adminCheck" />
+    <label>admin</label>
+    </span> <span>
+    <input type="checkbox" id="suserCheck" />
+    <label>superuser</label>
+    </span> <span>
+    <input type="checkbox" id="userCheck" />
+    <label>user</label>
+    </span> </div>
+  <div id="mainContent"></div>
+</div>
+</body>
+</html>
