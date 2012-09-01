@@ -8,14 +8,23 @@ Step 2: Place the extracted files into your project directory. The file 'index.h
 
 Step 3: Depending upon your requirement you can modify the metroConfig.xml
 
-Good to know -
+Good to know - What each tag in metroConfig.xml mean ?
 
-- It is the count of tiles that would be shown on the webpage. - Content that needs to be displayed in the tile div. - Any conditional clause for further use. ( See example to understand better : http://metrostrap.herokuapp.com ) - CSS class for the tile. - Background color of the tile. - Text color of the tile. - width of the tile. - height of the tile.
+<count></count>- It is the count of tiles that would be shown on the webpage. 
+<text></text>- Content that needs to be displayed in the tile div. 
+<type></type>- Any conditional clause for further use. ( See example to understand better : http://metrostrap.herokuapp.com ) .
+<class></class>- CSS class for the tile. 
+<background></background>- Background color of the tile. 
+<color></color> - Text color of the tile. 
+<width></width> - width of the tile. 
+<height></height>- height of the tile.
 
 If any of the above values are left blank , default values will be rendered. Instead of taking the pain of writing XML code and waiting to publish the change and view result. you can be smart to use the tile simulator for the same. :) :)
 
 Tile Simulator is available at : http://metrostrap.herokuapp.com/tileSimulator.php
 
-That's it from my end. If you like it or want to suggest changes, I would be more than happy. Reach me on twitter : @ngandamalla.
+That's it from my end. If you like it or want to suggest changes, I would be more than happy. 
+Reach me on twitter : @ngandamalla.
 
-Cheers !! Naveen.G
+Cheers !! 
+Naveen.G
