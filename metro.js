@@ -1,4 +1,12 @@
-// JavaScript Document
+/*
+Date : Sep 1, 2012,
+Framework : MetroStrap,
+Description:Quick development of MetroStyling , Cross Platform, Cross Browser and All Device supported,
+Author : Naveen Gandamalla,
+Add me at twitter : @ngandamalla,
+Git URL : https://github.com/ngandamalla/metro,
+*/
+
 $(document).ready(function(){
 	$.get("metro.xml",{},function(xml){
 		var trip=0;

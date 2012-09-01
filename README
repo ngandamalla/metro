@@ -1,0 +1,21 @@
+Hi, MetroStrap is a simple framework developed using HTML, CSS, jQuery and XML, to instantly build Metro style tile based user interface( generally seen in windows phone). This kind of styling is widely used in rapid creation of webpages, dashboards and analytics. Metrostrap is cross platform and cross browser compatible. This auto adjusts in all devices ( aka responsive css included ).
+
+How to use MetroStrap ?
+
+**Step 1: **Download the metro.zip repository.
+
+Step 2: Place the extracted files into your project directory. The file 'index.html' shows the default tile structure that comes with the framework.
+
+Step 3: Depending upon your requirement you can modify the metroConfig.xml
+
+Good to know -
+
+- It is the count of tiles that would be shown on the webpage. - Content that needs to be displayed in the tile div. - Any conditional clause for further use. ( See example to understand better : http://metrostrap.herokuapp.com ) - CSS class for the tile. - Background color of the tile. - Text color of the tile. - width of the tile. - height of the tile.
+
+If any of the above values are left blank , default values will be rendered. Instead of taking the pain of writing XML code and waiting to publish the change and view result. you can be smart to use the tile simulator for the same. :) :)
+
+Tile Simulator is available at : http://metrostrap.herokuapp.com/tileSimulator.php
+
+That's it from my end. If you like it or want to suggest changes, I would be more than happy. Reach me on twitter : @ngandamalla.
+
+Cheers !! Naveen.G
